@@ -10,6 +10,13 @@ using System.Diagnostics;
 namespace TrabajoB {
     class BD {
 
+        public static bool InsertarRegistro(string nombre, string clave){ 
+        
+        
+            return true;
+        }
+
+
         public static void Conectar(){ 
             string cnnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Personal\source\repos\TrabajoB\TrabajoB\BaseDatos.mdf;Integrated Security=True";
     
